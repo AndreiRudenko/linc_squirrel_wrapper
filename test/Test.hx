@@ -18,7 +18,7 @@ class Test {
         trace(sq.call('test', [236.067, 381.966], true)); // if true return function result
 
         sq.doFile("script.nut"); // load and run script
-        sq.call('foo', [1, 2.0, "three"], true);
+        sq.call('foo', [1, 2.0, "three"]);
 
         // callbacks
         sq.setFunction(
