@@ -50,6 +50,8 @@ class Example {
         );
 
         trace(sq.call('callBack', "haxe callback !!!", true));
+        
+        sq.close();
 
     }
 
